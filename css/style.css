@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+/*搜索区域*/
+#search{
+	width: 100%;
+	height: 528px;
+	min-width: 1263px;
+	background: url(../img/background2.jpg) no-repeat center;
+	position: relative;
+}
+/*搜索框居中部分*/
+#search .center{
+	width: 600px;
+	height: 60px;
+	background-color: #008B45;
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin: -30px 0 0 -300px;
+	opacity: 0.9;
+	border-radius: 5px;
+}
+/*搜索框*/
+#search .search{
+	width: 480px;
+	height: 53px;
+	background-color: #fff;
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin: -27px 0 0 -296px;
+	color: #008B45;
+	border: 1px solid #666;
+	font-size: 20px;
+	padding: 0 14px;
+	border:none;
+	outline: none;
+	border-radius: 5px;
+}
+/*搜索按钮*/
+#search .button{
+	width: 40px;
+	height: 34px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin: -27px 0 0 215px;
+	color: #666;
+	border: 1px solid #666;
+	font-size: 20px;
+	padding:10px 20px;
+	border:none;
+	outline: none;
+	cursor: pointer;
+	border-radius: 5px;
+}
+/*旅游资讯大标题*/
+#tour{
+	width: 1263px;
+	height: 1220px;
+	/*background-color: #ccc;*/
+	margin: 30px auto;
+	text-align: center;
+}
+#tour .center h2{
+	font-size: 45px;
+	letter-spacing: 2px;
+	color:#666;
+	margin: 10px 0;
+}
+#tour .center p{
+	color:#666;
+	margin: 10px 0;
+}
+/*旅游景点图文介绍*/
+#tour figure{
+	display: inline-block;
+	border: 1px solid #ddd;
+	width: 380px;
+	padding: 4px;
+	border-radius: 4px;
+	margin:15px 12px;
+	text-align: left;
+	position: relative;
+}
+/*旅游描述图*/
+#tour img{
+	width: 380px;
+	/*height: 286px;*/
+	height: auto;
+	vertical-align: middle;
+}
+/*旅游描述*/
+#tour figcaption{
+	color: #777;
+	font-size: 14px;
+	padding: 7px 0 5px 0;
+	letter-spacing: 1px;
+	line-height: 1.5;
+}
+/*满意度*/
+#tour .sat{
+	float: right;
+	font-size: 13px;
+	color: #999;
+	font-style: normal;
+	position: relative;
+	top:5px;
+	right:5px;
+}
+/*价格*/
+#tour .price{
+	color: #f60;
+	font-size: 14px;
+}
+#tour .price strong{
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+/*旅游类型*/
+#tour .type{
+	width: 90px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+	background-color: #59b200;
+	position: absolute;
+	top:4px;
+	left:4px;
+}
+/*底部区域*/
+#footer{
+	height: 320px;
+	background-color: #009B51;
+	opacity: 0.9;
+}
+
+
+
