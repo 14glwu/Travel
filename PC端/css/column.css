@@ -1,0 +1,466 @@
+@charset "utf-8";
+
+/*头部区域*/
+#headline{
+	width: 100%;
+	height: 300px;
+	min-width: 1263px;
+	background: linear-gradient(to right bottom,rgba(255,255,255,0.9),rgba(0,0,0,0.1)), url(../img/background2.jpg) no-repeat center;
+	position: relative;
+}
+/*头部中间区域*/
+#headline .center{
+	width: 1263px;
+	height: 300px;
+	margin: 0 auto;
+}
+#headline hgroup{
+	padding: 100px 0 0 100px;
+}
+#headline h2{
+	color: #333;
+	font-size: 36px;
+	letter-spacing: 1px;
+}
+#headline h3{
+	color: #333;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+/*内容容器*/
+#container{
+	width: 1263px;
+	margin: 30px auto;
+}
+/*侧边栏*/
+#container .sidebar{
+	width: 340px;
+	float: right;
+}
+/*侧边栏中容器盒子*/
+#container .sidebox{
+	border: 1px solid #eee;
+	margin: 0 0 10px 0;
+	text-align: center;
+}
+#container .sidebox h2{
+	font-size: 20px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	text-indent: 8px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #fafafa;
+	color: #666;
+	text-align: left;
+}
+/*景点推荐*/
+#container .tag {
+	padding: 10px 0;
+}
+#container .tag li{
+	display: inline-block;
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	margin: 2px 0;
+	background: #eee;
+	color: #999;
+	text-align:left;
+	text-indent: 8px;
+}
+#container .tag a{
+	display: block;
+	color: #999;
+}
+#container .tag a:hover{
+	background-color: #458b00;
+	color: white;
+}
+/*热点推荐*/
+#container .figure{
+	padding: 10px 0;
+}
+#container figure{
+	display: inline-block;
+	padding: 4px;
+	color:#666;
+}
+/*旅游百宝箱*/
+#container .box {
+	padding: 10px 0;
+}
+#container .box a{
+	display: inline-block;
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	margin: 2px 0;
+	background: #eee;
+	color: #999;
+	text-align:left;
+	text-indent: 35px;
+}
+#container .box a.trea1{
+	background:#eee url('../img/天气.png') no-repeat 10px center/15%;
+}
+#container .box a.trea2{
+	background:#eee url('../img/火车.png') no-repeat 10px center/15%;
+}
+#container .box a.trea3{
+	background:#eee url('../img/航空.png') no-repeat 10px center/15%;
+}
+#container .box a.trea4{
+	background:#eee url('../img/地铁.png')no-repeat 10px center/15%;
+}
+
+/*内容列表*/
+#container .list{
+	width: 910px;
+	float: left;
+}
+#container .infor{
+	height: 45px;
+	line-height: 45px;
+	background: #eee;
+	margin: 0 0 10px 0;
+}
+/*子导航栏左*/
+#container .information .left{
+	float: left;
+}
+#container .information .left li{
+	display: inline-block;
+	background: #eee;
+	width: 150px;
+	height: 43px;
+	line-height: 43px;
+	text-align: center;
+
+}
+#container .information .left li:first-child{
+	background: #fff;
+	border-top: 2px solid #458b00;
+	position: relative;
+	left: 1px;
+}
+#container .information .left a{
+	color: #666;
+}
+/*子导航栏右*/
+#container .information .right{
+	padding: 0 20px 0 0;
+	float: right;
+}
+#container .information .right li{
+	display: inline-block;
+	width: 60px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+}
+#container .information .right a{
+	padding: 3px 8px;
+	color: #666;
+}
+#container .information .right a.select,#container .information s.right a:hover{
+	background: #458b00;
+	color: #fff;
+}
+/*内容信息*/
+#container .tour {
+	width: 908px;
+	padding: 0;
+	margin: 0 0 20px 0;
+	border: 1px solid #ccc;
+	position: relative;
+}
+/*图片*/
+#container .tour img{
+	width: 380px;
+	height: 253px;
+	float: left;
+}
+/*描述*/
+#container .tour figcaption{
+	width: 528px;
+	height: 253px;
+	float: right;
+}
+#container .tour hgroup{
+	width: 300px;
+}
+#container .tour h2{
+	font-size:24px;
+	color: #333;
+	font-weight: normal;
+	padding: 10px 0 10px 25px;
+}
+#container .tour h3{
+	font-size:16px;
+	color: #666;
+	line-height: 1.5;
+	font-weight: normal;
+	padding: 10px 0 10px 25px;
+}
+#container .tour ol{
+	padding: 0 0 0 25px;
+	line-height: 2;
+	color: #666;
+}
+#container .tour mark{
+	background: #fff;
+	border: 1px solid #458b00;
+	border-radius: 4px;
+	margin: 0 5px 0 0;
+	padding: 0 5px;
+	color: #458b00;
+}
+#container .tour .buy{
+	position: absolute;
+	top: 55px;
+	right: 30px;
+}
+/*价格*/
+#container .tour .price{
+	color: #f60;
+	font-size: 20px;
+}
+#container .tour .price strong{
+	font-size: 36px;
+}
+#container .tour .price s{
+	color: #999;
+	font-size: 16px;
+}
+/*预订*/
+#container .tour .reserve{
+	margin: 10px 0 0 0;
+}
+#container .tour .reserve a{
+	display: block;
+	width: 152px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 4px;
+	font-size: 20px;
+	color: #fff;
+	background: #f60;
+}
+/*旅游类型*/
+#container .tour .type{
+	width: 90px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+	background-color: #59b200;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+/*折扣*/
+#container .tour .disc{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 56px;
+	height: 56px;
+	background: url('../img/disc.png') no-repeat center center/120%;
+	transform: rotate(180deg);
+}
+#container .tour .disc span{
+	display: block;
+	width: 52px;
+	height: 52px;
+	font-size: 14px;
+	color: #ff7a4d;
+	text-indent: 10px;
+	padding: 16px 0 0 0;
+	transform: rotate(225deg);
+}
+#container .tour footer{
+	width: 528px;
+	height: 30px;
+	line-height: 30px;
+	letter-spacing: 1px;
+	text-indent: 25px;
+	color: #666;
+	position: absolute;
+	bottom: 0;
+}
+/*时间*/
+#container .tour time{
+	color: #458b00;
+}
+#container .information .more,#container .scenery .more{
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 18px;
+	text-align: center;
+	margin: 0 auto;
+	border:1px solid #ccc;
+	background: #fafafa;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+/*ticket.html页面*/
+#container .ticket,#container .scenery,#container .about{
+	color: #666;
+	font-size: 20px;
+}
+#container .ticket h2,#container .scenery h2,#container .about h2{
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px dashed #999;
+	font-size: 30px;
+	font-weight: normal;
+	padding: 0 0 15px 0;
+
+}
+#container .ticket .type{
+	margin: 20px 0 10px 0;
+}
+#container .ticket .type mark{
+	color: #fff;
+	background: #458b00;
+	padding: 5px 8px;
+	border-radius: 4px;
+	margin: 0 10px 0 16px;
+}
+/*左部*/
+#container .ticket .left{
+	width: 43%;
+	display: inline-block;
+}
+/*右部*/
+#container .ticket .right{
+	width: 43%;
+	display: inline-block;
+}
+/*按钮区域*/
+#container .ticket .button{
+	width: 9%;
+	display: inline-block;
+}
+#container .ticket .submit{
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	text-align: center;
+	border-radius: 4px;
+	font-size: 20px;
+	color: #fff;
+	background: #f60;
+	border: none;
+	position: relative;
+	top: -28px;
+	cursor: pointer;
+}
+/*表单*/
+#container .ticket .form p{
+	line-height: 3;
+}
+#container .ticket .form input{
+	width: 250px;
+	height: 30px;
+	border:1px solid #ccc;
+	background: #fff;
+	border-radius: 4px;
+	padding: 5px;
+	font-size: 18px;
+	color: #666;
+	margin: 0 0 0 16px;
+}
+/*最新机票*/
+#container .ticket .new{
+	margin: 20px 0 0 0;
+}
+#container .ticket .new ul{
+	margin: 20px 0 0 0;
+}
+#container .ticket .new li{
+	display: inline-block;
+	padding:5px 10px;
+}
+#container .ticket .new li:first-child{
+	padding-left: 0;
+}
+#container .ticket .new li:nth-child(2){
+	color: #fff;
+	background: #458b00;
+	border-radius: 4px;
+}
+#container .ticket table{
+	margin: 20px 0 0 0;
+	width: 100%;
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+}
+#container .ticket th{
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #ddd;
+}
+#container .ticket td{
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+}
+#container .ticket tr:nth-child(2n){
+	background: #fafafa;
+}
+#container .ticket tr:hover{
+	background: #eee;
+}
+/*价格*/
+#container .ticket .price{
+	color: #f60;
+}
+#container .ticket .more{
+	color: #666;
+}
+#container .ticket .reserve{
+	display: inline-block;
+	width: 80px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 20px;
+	background: #f60;
+	cursor: pointer;
+}
+/*scenery.html*/
+#container .scenery figure{
+	display: inline-block;
+	border: 1px solid #ddd;
+	width: 435px;
+	padding: 4px;
+	border-radius: 4px;
+	margin:15px 5px 15px 0;
+	text-align: left;
+}
+#container .scenery figcaption{
+	padding:5px 0;
+	text-align: center;
+}
+#container .scenery img{
+	width: 435px;
+	height: 290px;
+}
+#container .about p{
+	line-height: 2;
+	margin: 20px 0;
+}
+#container .about address{
+	line-height: 1.6;
+	margin: 20px 0;
+	font-style: normal;
+}

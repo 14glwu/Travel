@@ -30,13 +30,25 @@
 	left:50%;
 	margin: -27px 0 0 -296px;
 	color: #008B45;
-	border: 1px solid #666;
+	border: 1px solid #008B45;
 	font-size: 20px;
 	padding: 0 14px;
 	border:none;
 	outline: none;
 	border-radius: 5px;
 }
+#search .search::-webkit-input-placeholder { /* WebKit browsers */ 
+color: #008B45; 
+} 
+#search .search:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ 
+color: #008B45; 
+} 
+#search .search::-moz-placeholder { /* Mozilla Firefox 19+ */ 
+color: #008B45; 
+} 
+#search .search:-ms-input-placeholder { /* Internet Explorer 10+ */ 
+color: #008B45; 
+} 
 /*搜索按钮*/
 #search .button{
 	width: 40px;
@@ -45,8 +57,7 @@
 	top:50%;
 	left:50%;
 	margin: -27px 0 0 215px;
-	color: #666;
-	border: 1px solid #666;
+	border: 1px solid #008B45;
 	font-size: 20px;
 	padding:10px 20px;
 	border:none;
@@ -54,7 +65,7 @@
 	cursor: pointer;
 	border-radius: 5px;
 }
-/*旅游资讯大标题*/
+/*旅游资讯*/
 #tour{
 	width: 1263px;
 	height: 1220px;
@@ -86,8 +97,7 @@
 /*旅游描述图*/
 #tour img{
 	width: 380px;
-	/*height: 286px;*/
-	height: auto;
+	height: 253px;
 	vertical-align: middle;
 }
 /*旅游描述*/
@@ -97,6 +107,9 @@
 	padding: 7px 0 5px 0;
 	letter-spacing: 1px;
 	line-height: 1.5;
+}
+#tour .info{
+	padding: 5px 0 0 0;
 }
 /*满意度*/
 #tour .sat{

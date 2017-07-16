@@ -1,10 +1,14 @@
 @charset "utf-8";
 
-body,h1,ul,h2,h3,p,figure{
+body,h1,h2,h3,ul,ol,p,figure{
 	margin: 0;
 	padding: 0;
 }
-ul{
+body{
+	background: #fff;
+	font-family: "Helvertia Neue",Helvertia,Arial,"Microsoft Yahei UI","Microsoft YaHei",SimHei,"宋体",simsun,sans-serif;
+}
+ul,ol{
 	list-style: outside none none;
 } 
 a{
@@ -66,6 +70,9 @@ a{
 	height: 320px;
 	background-color: #009B51;
 	opacity: 0.9;
+	clear: both;
+	position: relative;
+	top: 20px;
 }
 /*底部上区域*/
 #footer .top{
