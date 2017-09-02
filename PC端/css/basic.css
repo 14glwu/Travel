@@ -67,6 +67,7 @@ a{
 }
 /*底部区域*/
 #footer{
+	min-width: 1263px;
 	height: 320px;
 	background-color: #009B51;
 	opacity: 0.9;
