@@ -7,7 +7,7 @@
 
 PC端就是很正常的布局写的。
 
-![2018-07-24_133706](C:\Users\wuguanglin\Desktop\2018-07-24_133706.png)
+![2018-07-24_133706](https://github.com/14glwu/Travel/blob/master/img-readme/pc-index.png)
 
 
 
@@ -19,7 +19,7 @@ PC端就是很正常的布局写的。
 
 这样1rem就等于100px了。
 
- ![2018-07-24_140834](C:\Users\wuguanglin\Desktop\2018-07-24_140834.png)
+ ![2018-07-24_140834](https://github.com/14glwu/Travel/blob/master/img-readme/mobile-index.png)
 
 
 
@@ -27,5 +27,5 @@ PC端就是很正常的布局写的。
 
 这一版主要是利用了媒体查询和流式布局来做的，也算是最终版了。
 
-![2018-07-24_140724](file:///C:/Users/wuguanglin/Desktop/2018-07-24_140724.png?lastModify=1532410494)
+![2018-07-24_140724](https://github.com/14glwu/Travel/blob/master/img-readme/compat-index.png)
 
