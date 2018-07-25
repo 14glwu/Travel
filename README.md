@@ -27,5 +27,6 @@ PC端就是很正常的布局写的。
 
 这一版主要是利用了媒体查询和流式布局来做的，也算是最终版了。
 
-![2018-07-24_140724](https://github.com/14glwu/Travel/blob/master/img-readme/compat-index.png)
+![2018-07-24_140724](https://github.com/14glwu/Travel/blob/master/img-readme/compat-index1.png)
 
+![2018-07-24_140724](https://github.com/14glwu/Travel/blob/master/img-readme/compat-index2.png)
